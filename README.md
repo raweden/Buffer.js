@@ -6,7 +6,7 @@ A Buffer object offers a interface that is similar to the browser-side's `DataVi
 efficient reading and writting in the sense of ease, code structure to minimize bugs. This by providing "progressive"
 writing and reading operation by having a internaly incremented file pointer, which is exposed by the `buffer.byteOffset`
 property, a default value for endianes can also be specified on each buffer as `buffer.littleEndian`. This is rater than
-specifying `byteOffset` and `littleEndian` for each read and write call which is the `DataView` provides.
+specifying `byteOffset` and `littleEndian` for each read and write call which is what the native `DataView` provides.
 
 ## Documentation
 
